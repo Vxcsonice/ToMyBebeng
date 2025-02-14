@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6f0;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background: #ffe4e1;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #ff6b81;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+header::after {
+  content: "🌸 🌷 🌹 🌸";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+}
+
+/* Thought Space Layout */
+.thought-space {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.thought {
+  background: #ffffff;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thought h2 {
+  font-family: 'Playfair Display', serif;
+  color: #ff6b81;
+  margin-bottom: 1rem;
+}
+
+.thought p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.thought img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Video & Spotify */
+iframe, video {
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  background: #ffe4e1;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 2rem;
+}
+footer p{
+  color: red
+  
+}
+
+
+footer::before {
+  content: "🌼🌸🌼";
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
